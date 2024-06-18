@@ -1,0 +1,70 @@
+.grand_div {
+  /* border: 1px solid black; */
+  width: 30rem;
+  /* text-align: center; */
+  /* border-radius: 1rem; */
+}
+
+.weather_app {
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grand_div:hover {
+  background: rgba(
+    255,
+    255,
+    255,
+    0.05
+  ); /* White background with some transparency */
+  border-radius: 1rem; /* Rounded corners */
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  backdrop-filter: blur(10px); /* Blur effect */
+  -webkit-backdrop-filter: blur(10px); /* For Safari */
+  /* border: 1px solid rgba(255, 255, 255, 0.18); Border with some transparency */
+  transition: background 1s ease-in-out, backdrop-filter 0.5s ease-in-out,
+    border 0.5s ease-in-out;
+}
+
+.infobox {
+  background: #cb429f;
+  /* border-bottom-left-radius: 1rem; */
+  /* border-bottom-right-radius: 1rem; */
+  width: 21rem;
+  text-align: left;
+}
+
+.infobox:hover {
+  background: #d256a2;
+  transition: background 1s ease-in-out;
+}
+
+.search_button {
+  background: #2c0e37 !important;
+  /* background: linear-gradient(to top left, #daa89b, #cb429f); */
+  color: #fff !important;
+  border: 1px solid black !important;
+}
+
+.search_box_form
+  .MuiOutlinedInput-root.Mui-focused
+  .MuiOutlinedInput-notchedOutline {
+  border-color: black !important; /* Change border color to black on focus */
+  color: black important;
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: #000000 !important; /* Change color to #1976d2 when focused */
+}
+
+.error {
+  color: #2c0e37;
+}
+.error > h3 {
+  margin-top: 0rem !important;
+  font-weight: 100;
+  text-decoration: underline;
+}
